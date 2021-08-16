@@ -44,7 +44,7 @@ if (msg.content.includes('hola')) {
             .addField('who', 'respuesta sorpresa', true)
             .addField('hola', 'hola', true)
             .addField('!clean', 'borra casi todo xD', false)
-            .setAuthor('qti', 'https://preview.redd.it/qtldg7ajo1841.png?auto=webp&s=24c2a0544da8adea8031fac43c86fb1b9a8ad633');
+            .setAuthor('qti', 'https://pbs.twimg.com/media/EDF5VH7XUAAayrA.jpg');
         msg.channel.send(embed);
     }
 
