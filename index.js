@@ -66,5 +66,5 @@ if (msg.content.includes('hola')) {
 });
 
                 //El token
-const token = '';
+const token = 'El token del bot va aca';
 client.login(token);
