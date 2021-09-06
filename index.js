@@ -48,21 +48,7 @@ if (msg.content.includes('hola')) {
         msg.channel.send(embed);
     }
 
-    // Borrar casi todo xD
-    if (msg.content.startsWith('!clean')) {
-        async function clear() {
-            try {
-                
-                const fetched = await msg.channel.fetchMessages({limit: 99});
-                msg.channel.bulkDelete(fetched);;
-                console.log('Messages deleted');
-            }
-            catch (e) {
-                console.log(e);
-            }
-        }
-        clear();
-    }
+
 });
 
                 //El token
